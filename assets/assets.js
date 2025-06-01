@@ -35,8 +35,16 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import data_icon from "./data_icon.png";
+import front_icon from "./front_icon.png";
+import back_icon from "./back_icon.png";
+import app_icon from "./app_icon.png";
 
 export const assets = {
+  front_icon,
+  back_icon,
+  app_icon,
+  data_icon,
   user_image,
   code_icon,
   code_icon_dark,
@@ -78,52 +86,58 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
+    title: "Agrikart - Equipment Rental Service",
+    description: "Fullstack App",
+    bgImage: "/work-6.png",
+    link: "https://agrikart-test.vercel.app/",
+  },
+  {
+    title: "Faclty Appriasal System",
+    description: "React + Flask App",
+    bgImage: "/work-7.png",
+    link: "https://faculty-appraisal.vercel.app/",
+  },
+  {
+    title: "MedService Website",
     description: "Web Design",
-    bgImage: "/work-1.png",
+    bgImage: "/work-8.png",
+    link: "https://university-insights-internship-task.vercel.app/",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
-  },
-  {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png",
-  },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    title: "Other Project",
+    description: "Visit my Github to See My Other Work",
+    bgImage: "/work-5.jpg",
+    link: "https://github.com/avirajkale50",
   },
 ];
 
 export const serviceData = [
   {
-    icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
-  },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+    icon: assets.front_icon,
+    title: "Frontend Development",
     description:
-      "Mobile app development involves creating software for mobile devices...",
+      "Frontend development involves building the visual and interactive parts of a website or app that users interact with...",
     link: "",
   },
   {
-    icon: assets.ui_icon,
-    title: "UI/UX design",
+    icon: assets.data_icon,
+    title: "Database Design and Analysis",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "Database development involves creating and managing systems to store, organize, and access data efficiently...",
     link: "",
   },
   {
-    icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    icon: assets.back_icon,
+    title: "Backend Development",
+    description:
+      "Backend development focuses on server-side logic, databases, and APIs to power application functionality behind the scenes...",
+    link: "",
+  },
+  {
+    icon: assets.app_icon,
+    title: "React Native",
+    description:
+      "React Native app development involves building cross-platform mobile apps using JavaScript and React for both iOS and Android...",
     link: "",
   },
 ];
@@ -133,13 +147,13 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "C++, C, SQL, Javascript, Python, HTML, CSS, Liquid",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "Bachelor of Technology in Computer Science",
   },
   {
     icon: assets.project_icon,
@@ -155,4 +169,5 @@ export const toolsData = [
   assets.mongodb,
   assets.figma,
   assets.git,
+  assets.data_icon
 ];
