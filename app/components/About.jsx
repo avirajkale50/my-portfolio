@@ -54,10 +54,7 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-            dolore atque aspernatur quo impedit aperiam amet veniam delectus
-            laudantium culpa aut debitis quidem, dolor ullam error porro
-            asperiores laboriosam esse?
+            I am Aviraj Kale, a ambitious computer engineering students willing to do great work the field of technology.
           </p>
 
           <motion.ul
@@ -81,7 +78,6 @@ const About = ({ isDarkMode }) => {
                   {title}
                 </h3>
                 <p className="text-gray-600 text-sm dark:text-white/80">
-                  {" "}
                   {description}
                 </p>
               </motion.li>
